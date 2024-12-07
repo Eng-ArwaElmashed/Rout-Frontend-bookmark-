@@ -1,0 +1,117 @@
+body{
+    background-color:rgb(247, 236, 222) ;
+}
+.cont{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    color: #352e28;
+    font-family:Pacifico, cursive ;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 500;
+    position: relative;
+    
+}
+h1::before{
+    content: "";
+    height: 20px;
+    width: 25%;
+    position: absolute;
+    bottom: 20%;
+    left: 38%;
+    background-color:rgb(254, 194, 96);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+h1:hover::before{
+    height: 30px;
+    
+}
+.cont1{
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+h3{
+    font-family: Righteous, cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500px;
+}
+label{
+    color: rgb(33, 37, 41);
+    font-family:"PT Sans Caption", sans-serif ;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600px;
+}
+.btn-submit{
+    padding:5px  40px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb4120;
+    --bs-btn-hover-border-color: #a03315;
+}
+.form-control{
+    border: #d1512d;
+    box-shadow:#d1512d;
+    outline:#bb4120;
+}
+.form-control:focus{
+    border-color: #d99c39;;
+    box-shadow:0 0 0 0.25rem #fec26055;
+    /* box-shadow: 0 0 0 .25rem #d1512d; */
+    outline:#bb4120;
+}
+tbody .btn-visit{
+    padding:5px  20px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9eb23b;
+    --bs-btn-border-color: #9eb23b;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8a9e23;
+    --bs-btn-hover-border-color: #6e8018;
+}
+tbody .btn-delete{
+    padding:5px  15px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #eb1d36;
+    --bs-btn-border-color: #eb1d36;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d30820;
+    --bs-btn-hover-border-color: #ba081d;
+}
+.sweetAlert {
+text-align: left;
+font-size:11px ;
+color:#352e28;
+}
+h4{
+    text-align: left;
+    font-size:18px ;
+    color:#212529;  
+}
+.rules i{
+    color:#bb4120;
+    font-size: 18px;
+}
+h2{
+    font-size:21px ;
+    color:#352e28;
+    font-family: "Bree Serif", serif;
+}
+.icon i{
+    font-size: 22px;
+}
+div:where(.swal2-container) button:where(.swal2-close){
+    color: #212529;
+}
+
